@@ -29,21 +29,23 @@ A professional-grade Flask web application designed to demonstrate secure authen
    git clone [https://github.com/tajb1d/Secure-Audit-Logger.git](https://github.com/tajb1d/Secure-Audit-Logger.git)
    cd Secure-Audit-Logger
 
-2. Set up Virtual Environment:
+2. **Set up Virtual Environment**:
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
 
-python -m venv venv
-.\venv\Scripts\activate
+3. **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
 
-3. Install Dependencies:
+4. **Configuration**: 
 
-pip install -r requirements.txt
-
-4. Configuration: Copy config.ini.example to config.ini and add your unique secret_key.
+Copy config.ini.example to config.ini and add your unique secret_key.
 
 5. Initialize Database:
-
-python database_setup.py
+    ```bash
+    python database_setup.py
 
 6. Run Application:
-
-python app.py
+    ```bash
+    python app.py
