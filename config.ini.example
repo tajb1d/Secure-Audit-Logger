@@ -1,0 +1,9 @@
+[SERVER]
+port = 5000
+
+[DATABASE]
+db_name = audit.db
+
+[SECURITY]
+# Replace this with a random string for your own local setup
+secret_key = YOUR_SECRET_KEY_HERE
