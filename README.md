@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔐 Secure Audit Logger
 
 A professional-grade Flask web application designed to demonstrate secure authentication, session management, and automated audit logging. This project implements security best practices to prevent common web vulnerabilities.
@@ -49,3 +50,7 @@ Copy config.ini.example to config.ini and add your unique secret_key.
 6. Run Application:
     ```bash
     python app.py
+=======
+# Secure-Audit-Logger
+Practice CRUD app that logs IP and user session, logins, registers, etc. 
+>>>>>>> parent of 2a9a3af (Added README with install guide)
